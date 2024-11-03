@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    border-radius: 16px;
+    padding: 14px;
+    width: 90%;
+
+}
+.card img{
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+p{
+    text-align: center;
+}
+
+.custom-button{
+    border-radius: 10px;
+    background-color: #f7da44;
+    border: none;
+    padding: 5px 3px;
+}
+.custom-button:hover{
+    background-color: #efbc23;
+}
+
+.spin{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

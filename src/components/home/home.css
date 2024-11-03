@@ -1,0 +1,33 @@
+
+.banner {
+    background-image: url("https://t3.ftcdn.net/jpg/06/87/53/38/240_F_687533853_nUgikylYcWvApzHDcun6mU3LGZQjtvRM.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.banner h1{
+    color: #5f3006;
+    font-family: Dancing Script, cursive;
+    margin-bottom: 20px;
+}
+
+.banner button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #ff5722;
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner button:hover {
+    background-color: #e64a19; /* Darker button color on hover */
+}
